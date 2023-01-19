@@ -1,3 +1,6 @@
+# Vulnversity
+https://tryhackme.com/room/vulnversity
+
 Got some help from John Hammond for privledge escalation: https://www.youtube.com/watch?v=hvYWCegfEZs
 
 ## NMAP
@@ -29,7 +32,7 @@ Nmap done: 1 IP address (1 host up) scanned in 46.82 seconds
 /internal             (Status: 301) [Size: 322] [--> http://<IP>:3333/internal/]
 ```
 
-STEPS TO COMPLETE:
+## STEPS TO COMPLETE
 
 Created fuzzer.py to check for allowed file extension uploads. Found .phtml is allowed
 
