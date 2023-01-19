@@ -1,6 +1,7 @@
 Got some help from John Hammond for privledge escalation: https://www.youtube.com/watch?v=hvYWCegfEZs
 
-NMAP:
+## NMAP
+```
 └─$ nmap -sV $IP
 Starting Nmap 7.93 ( https://nmap.org ) at 2023-01-18 20:19 PST
 Nmap scan report for <IP>
@@ -17,15 +18,16 @@ Service Info: Host: VULNUNIVERSITY; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_ke
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 46.82 seconds
+```
 
-
-GOBUSTER:
+## GOBUSTER
+```
 /images               (Status: 301) [Size: 320] [--> http://<IP>:3333/images/]
 /css                  (Status: 301) [Size: 317] [--> http://<IP>:3333/css/]
 /js                   (Status: 301) [Size: 316] [--> http://<IP>:3333/js/]
 /fonts                (Status: 301) [Size: 319] [--> http://<IP>:3333/fonts/]
 /internal             (Status: 301) [Size: 322] [--> http://<IP>:3333/internal/]
-
+```
 
 STEPS TO COMPLETE:
 
